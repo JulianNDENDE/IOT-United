@@ -1,0 +1,32 @@
+{
+  "name": "mqtt-supabase-integration",
+  "version": "1.0.0",
+  "description": "MQTT and Supabase integration with Express and Weather API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "mqtt",
+    "supabase",
+    "express",
+    "weather",
+    "iot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mqtt": "^5.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "nodemon": "^3.1.7"
+  }
+}

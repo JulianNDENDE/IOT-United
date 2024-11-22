@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-link {
+  transition: background-color 0.3s ease;
+  margin: 0 10px;
+}
+
+.navbar-link:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+.navbar-link.active {
+  font-weight: bold;
+  color: #f8f9fa !important;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+body {
+  padding-top: 60px;
+}
